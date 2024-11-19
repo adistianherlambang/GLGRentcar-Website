@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/test.module.css";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import React from "react";
-import Navbar from "@/components/nav";
+import Navbar from "../components/nav";
 
 export default function Home() {
 

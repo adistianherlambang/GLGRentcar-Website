@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+.header {
+    background-image: url('/assets/tentangKami/header.png');
+    background-position: bottom;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerTitle {
+    font-size: 3rem;
+}
+
+.headerCategory {
+    color: var(--paragraphColor);
+}
+
+.headerButton {
+    color: white;
+    font-weight: 400;
+    transition: 300ms ease-in;
+}
+
+.headerButton:hover {
+    font-weight: 600;
+}
+
+.content {
+    margin: 10rem 4rem;
+}
+
+.topBlog {
+    width: 100%;
+    height: 30rem;
+    border: solid rgb(255,255,255, 0.3) 2px;
+    background-color: rgb(255,255,255, 0.1);
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
+.topBlogLeft {
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+.topBlogRight {
+    width: 50%;
+    background-image: url('/assets/blog/top.png');
+    background-position: center;
+}
+
+.topBlogCopy {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+.topBlogCategory {
+    background-color: #F10806;
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    border-radius: 2rem;
+}
+
+.blogTitle {
+    font-size: 2rem;
+}
+
+.blogParagraph {
+    color: #BCBCBC;
+}
+
+.blogTime {
+    display: flex;
+    gap: 2rem;
+}
+
+.blogClock {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blogCalendar {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blogContentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.blogContentTitle {
+    font-size: 4rem;
+}
+
+.blogContentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogContent {
+    width: 23.5rem;
+    border-radius: 2rem;
+    background-color: rgb(255,255,255, 0.1);
+    border: solid rgb(255,255,255, 0.3) 2px;
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogContentImg {
+    width: 100%;
+    height: 15rem;
+    background-image: url("/assets//blog/content/1.png");
+    border-radius: 1rem;
+    background-position: center;
+}
+
+.blogContentCopy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (max-width:1024px) {
+    .blogContent {
+        width: 100%;
+    }
+    .blogTitle {
+        font-size: 1.5rem;
+    }
+    .blogParagraph {
+        font-size: 0.85rem;
+    }
+    .time {
+        font-size: 0.85rem;
+    }
+    .blogCalendar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blogClock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin: 0 4rem;
+}
