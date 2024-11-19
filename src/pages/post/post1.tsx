@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Head from "next/head";
 import styles from "@/styles/blogPost.module.css"
-import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/nav";
 
@@ -23,12 +22,22 @@ export default function tentangKami() {
                         <p className={styles.blogTitle}>Lorem Ipsum Dolor Sit Amet</p>
                         <div className={styles.blogTime}>
                             <div className={styles.blogClock}>
-                                <img src="/assets/HomeAsset/blogTime.svg" alt="" />
-                                <p className={styles.paragraph}>18.00 WIB</p>
+                            <Image
+                                src="/assets/HomeAsset/blogTime.svg"
+                                alt="Layanan Kami"
+                                width={20}
+                                height={20}
+                            />
+                            <p>18.00 WIB</p>
                             </div>
-                                <div className={styles.blogCalendar}>
-                                <img src="/assets/HomeAsset/blogCalendar.svg" alt="" />
-                                <p>Desember 2024</p>
+                            <div className={styles.blogCalendar}>
+                            <Image
+                                src="/assets/HomeAsset/blogCalendar.svg"
+                                alt="Layanan Kami"
+                                width={20}
+                                height={20}
+                            />
+                            <p>Desember 2024</p>
                             </div>
                         </div>
                     </div>

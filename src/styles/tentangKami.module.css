@@ -111,7 +111,6 @@
     background-color: rgb(255,255,255, 0.1);
     backdrop-filter: blur(100px);
     transition: 1s ease;
-
 }
 
 .misiCard:hover {

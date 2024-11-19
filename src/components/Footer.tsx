@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import styles from "@/styles/Footer.module.css"
 
 export default function Footer(){
@@ -7,25 +9,25 @@ export default function Footer(){
             <div className={styles.footerContainer}>
                 <div className={styles.topFooter}>
                     <div className={styles.info}>
-                        <img className={styles.logo} src="/assets/logo.png" alt="logo" />
+                        <Image width={100} height={100} layout="intrinsic" className={styles.logo} src="/assets/logo.png" alt="logo" />
                         <p className={styles.leftparagraph}>Didirikan pada tahun 2011 di Bandar Lampung, GLG Rent Car berkembang menjadi CV. GILANG PERKASA pada tahun 2016, menawarkan layanan rental mobil terpercaya dengan berbagai pilihan armada yang terawat, untuk memenuhi kebutuhan pelanggan seperti kunjungan kerja, bisnis, kedinasan, dan acara pribadi, dengan opsi layanan lepas kunci serta sopir berpengalaman.</p>
                         <div className={styles.socialIcon}>
-                            <a href="#"><img src="/assets/footerAsset/fb.svg" alt="Facebook" /></a>
-                            <a href="#"><img src="/assets/footerAsset/ig.svg" alt="Instagram" /></a>
-                            <a href="#"><img src="/assets/footerAsset/tt.svg" alt="TikTok" /></a>
+                            <Link href="#"><Image width={30} height={10} layout="intrinsic" src="/assets/footerAsset/fb.svg" alt="Facebook" /></Link>
+                            <Link href="#"><Image width={30} height={10} layout="intrinsic" src="/assets/footerAsset/ig.svg" alt="Instagram" /></Link>
+                            <Link href="#"><Image width={30} height={10} layout="intrinsic" src="/assets/footerAsset/tt.svg" alt="TikTok" /></Link>
                         </div>
                     </div>
                     <div className={styles.addressInfo}>
                         <p className={styles.title}>Address</p>  
                         <div className={styles.addressDetail}>
                             <div className={styles.icon}>
-                                <img className={styles.location} src="/assets/footerAsset/Location.svg" alt="location" />
+                                <Image width={30} height={10} layout="intrinsic" className={styles.location} src="/assets/footerAsset/Location.svg" alt="location" />
                             </div>
                             <p className={styles.paragraph}>Jalan Tirtayasa, Gg Permata No 08, Sukabumi, Bandar Lampung</p>
                         </div>
                         <div className={styles.addressDetail}>
                             <div className={styles.icon}>
-                                <img src="/assets/footerAsset/Call.svg" alt="call" />
+                                <Image width={30} height={10} layout="intrinsic" src="/assets/footerAsset/Call.svg" alt="call" />
                             </div>
                             <p className={styles.paragraph}>+628117212566</p>
                         </div>
@@ -33,10 +35,10 @@ export default function Footer(){
                     <div className={styles.links}>
                         <p className={styles.title}>Website Links</p>
                         <div className={styles.linkContainer}>
-                            <a href="#"><p className={styles.linkParagraph}>Home</p></a>
-                            <a href="#"><p className={styles.linkParagraph}>Tentang Kami</p></a>
-                            <a href="#"><p className={styles.linkParagraph}>Armada</p></a>
-                            <a href="#"><p className={styles.linkParagraph}>Blog</p></a>
+                            <Link href="#"><p className={styles.linkParagraph}>Home</p></Link>
+                            <Link href="#"><p className={styles.linkParagraph}>Tentang Kami</p></Link>
+                            <Link href="#"><p className={styles.linkParagraph}>Armada</p></Link>
+                            <Link href="#"><p className={styles.linkParagraph}>Blog</p></Link>
                         </div>
                     </div>
                 </div>

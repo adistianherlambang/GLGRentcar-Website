@@ -2,7 +2,6 @@ import Footer from "@/components/Footer";
 import Head from "next/head";
 import styles from "@/styles/armada.module.css"
 import Link from "next/link";
-import Image from "next/image";
 import Navbar from "@/components/nav";
 
 export default function tentangKami() {
@@ -18,7 +17,7 @@ export default function tentangKami() {
             <div className={styles.header}>
                 <div className={styles.headerContent}>
                     <p className={styles.headerTitle}>Armada</p>
-                    <p className={styles.headerCategory}><a href="/" className={styles.headerButton}>GLG RentCar / </a>Armada</p>
+                    <p className={styles.headerCategory}><Link href="/" className={styles.headerButton}>GLG RentCar / </Link>Armada</p>
                 </div>
             </div>
 

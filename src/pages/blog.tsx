@@ -18,7 +18,7 @@ export default function tentangKami() {
             <div className={styles.header}>
                 <div className={styles.headerContent}>
                     <p className={styles.headerTitle}>Blog</p>
-                    <p className={styles.headerCategory}><a href="/" className={styles.headerButton}>GLG RentCar / </a>Blog</p>
+                    <p className={styles.headerCategory}><Link href="/" className={styles.headerButton}>GLG RentCar / </Link>Blog</p>
                 </div>
             </div>
 
@@ -32,12 +32,22 @@ export default function tentangKami() {
                                 <p className={styles.blogParagraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ....</p>
                                 <div className={styles.blogTime}>
                                     <div className={styles.blogClock}>
-                                        <img src="/assets/HomeAsset/blogTime.svg" alt="" />
-                                        <p className={styles.time}>18.00 WIB</p>
+                                    <Image
+                                        src="/assets/HomeAsset/blogTime.svg"
+                                        alt="Layanan Kami"
+                                        width={20}
+                                        height={20}
+                                    />
+                                    <p>18.00 WIB</p>
                                     </div>
-                                        <div className={styles.blogCalendar}>
-                                        <img src="/assets/HomeAsset/blogCalendar.svg" alt="" />
-                                        <p className={styles.time}>Desember 2024</p>
+                                    <div className={styles.blogCalendar}>
+                                    <Image
+                                        src="/assets/HomeAsset/blogCalendar.svg"
+                                        alt="Layanan Kami"
+                                        width={20}
+                                        height={20}
+                                    />
+                                    <p>Desember 2024</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,12 +69,22 @@ export default function tentangKami() {
                                 </div>
                                 <div className={styles.blogTime}>
                                     <div className={styles.blogClock}>
-                                        <img src="/assets/HomeAsset/blogTime.svg" alt="" />
-                                        <p className={styles.time}>18.00 WIB</p>
+                                    <Image
+                                        src="/assets/HomeAsset/blogTime.svg"
+                                        alt="Layanan Kami"
+                                        width={20}
+                                        height={20}
+                                    />
+                                    <p>18.00 WIB</p>
                                     </div>
-                                        <div className={styles.blogCalendar}>
-                                        <img src="/assets/HomeAsset/blogCalendar.svg" alt="" />
-                                        <p className={styles.time}>Desember 2024</p>
+                                    <div className={styles.blogCalendar}>
+                                    <Image
+                                        src="/assets/HomeAsset/blogCalendar.svg"
+                                        alt="Layanan Kami"
+                                        width={20}
+                                        height={20}
+                                    />
+                                    <p>Desember 2024</p>
                                     </div>
                                 </div>
                             </div>
